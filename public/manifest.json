@@ -3,14 +3,12 @@
   "name": "Youtube Downloader",
   "version": "1.0",
   "background": {
-      "service_worker": "background.js"
+    "service_worker": "background.js"
   },
-  "default_popup": "popup.html",
   "content_scripts": [{
-          "matches": ["https://www.youtube.com/*"],
-          "js": ["contentScript.js"]
-      }
-  ],
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["contentScript.js"]
+  }],
   "permissions": [
       "tabs",
       "https://www.youtube.com/*"
