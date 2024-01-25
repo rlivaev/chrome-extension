@@ -48,7 +48,7 @@ function addButton() {
       }
     }
   };
-  setTimeout(window.onload = addButton, 1000)
+  setTimeout(window.onload = addButton, 3000)
 });
 
 
